@@ -22,7 +22,7 @@ namespace Semana2CasoPropuesto2
         private void listar_pedidos(string nombre, string apellidos)
         {
 
-            using (SqlCommand cmd = new SqlCommand("usp_listar_pedidos_nombre_apellido", cn))
+            using (SqlCommand cmd = new SqlCommand("caso1", cn))
             {
                 using (SqlDataAdapter da = new SqlDataAdapter())
                 {
